@@ -20,11 +20,7 @@ body {
     display: flex;
     align-items: center;
     margin: 8% 13%;
-    background-image: url('/images/vinedo.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   
 }
 .container img{
     width: 170px;
