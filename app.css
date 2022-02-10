@@ -7,6 +7,14 @@ body {
     min-height: 100%; 
     font-family: 'Gotham', sans-serif;
 }
+html { 
+    background: url(./images/vinedo.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .container{
     display: flex;
     align-items: center;
