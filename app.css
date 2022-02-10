@@ -6,7 +6,7 @@
 body { 
     min-height: 100%; 
     font-family: 'Gotham', sans-serif;
-    background-image: url('../images/vinedo.jpg');
+    background-image: url('/images/vinedo.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
