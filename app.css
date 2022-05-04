@@ -19,7 +19,8 @@ body {
 .container{
     display: flex;
     align-items: center;
-    margin: 8% 13%;
+    /* margin: 8% 13%; */
+    margin-top: 8%;
    
 }
 .container img{
@@ -45,6 +46,36 @@ body {
 .div_container_2 h1{
     font-size: 130px;
 }
+
+@media screen and (min-width:1060px) and (max-width:1120px) {
+    .container img{
+        width: 250px;
+        height: 650px;
+        /* border: 2px solid red; */
+    }
+}
+@media screen and (min-width:960px) and (max-width:1159px) {
+    .container img{
+        width: 200px;
+        height: 550px;
+        /* border: 2px solid red; */
+    }
+}
+@media screen and (min-width:875px) and (max-width:959px) {
+    .container img{
+        width: 300px;
+        height: 450px;
+        /* border: 2px solid red; */
+    }
+}
+@media screen and (min-width:801px) and (max-width:874px) {
+    .container img{
+        width: 300px;
+        height: 359px;
+        /* border: 2px solid red; */
+    }
+}
+
 @media screen and (min-width:300px) and (max-width:800px) {
     .container{
         display: flex;
